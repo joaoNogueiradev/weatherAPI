@@ -1,3 +1,4 @@
 export const openWeatherApi = {
-    base: import.meta.env.VITE_API_URL || ''
-}
+  base:
+    import.meta.env.VITE_API_URL || "https://api.openweathermap.org/data/2.5/",
+};
